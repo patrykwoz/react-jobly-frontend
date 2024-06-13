@@ -1,0 +1,14 @@
+.SearchBar {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.SearchBar-input {
+    height: 30px;
+    background-color: #edf3f8;
+    border: none;
+    border-radius: 5px;
+}

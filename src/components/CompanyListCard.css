@@ -1,0 +1,61 @@
+.CompanyListCard {
+    list-style-type: none;
+}
+
+.CompanyListCard-container {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    box-sizing: border-box;
+    margin-right: 15px;
+}
+
+.CompanyListCard-logo {
+    display: block;
+    min-width: 48px;
+    min-height: 48px;
+    height: 48px;
+    margin-top: 15px;
+    margin-right: 10px;
+    background-color: grey;
+}
+
+.CompanyListCard-text {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    padding: 0;
+    padding-bottom: 25px;
+    flex-direction: column;
+    justify-content: top;
+    text-align: left;
+    align-content: left;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.CompanyListCard:last-child .CompanyListCard-text {
+    border-bottom: none;
+}
+
+.CompanyListCard-text p {
+    padding: 0;
+    margin: 0;
+    font-size: small;
+    color: grey;
+    font-weight: 400;
+}
+
+.CompanyListCard-text h3 {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    color: black;
+    font-size: 1.0rem;
+    font-weight: 500;
+}
+
+.CompanyListCard-text h3:hover {
+    text-decoration-line: underline;
+}

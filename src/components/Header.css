@@ -1,0 +1,23 @@
+.Header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    z-index: 100;
+
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.6), 0px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.Header-logo {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    background-color: transparent;
+}

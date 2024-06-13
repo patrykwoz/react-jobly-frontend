@@ -1,0 +1,46 @@
+.UserLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+}
+
+.UserLogin h3 {
+    display: block;
+    margin: 15px 0 15px 0;
+    font-weight: 400;
+}
+
+.UserLogin-form {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.UserLogin-form label {
+    font-size: smaller;
+    font-weight: 600;
+    color: gray;
+}
+
+.UserLogin-form input {
+    margin: 5px 0 5px 0;
+    padding: 0 0 0 10px;
+    height: 30px;
+
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.UserLogin-form button {
+    margin: 35px 0 5px 0;
+    width: 100%;
+    border-radius: 50px;
+    background-color: #00A2E8;
+    color: white;
+}

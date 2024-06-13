@@ -1,0 +1,125 @@
+.NavBar {
+    height: 52px;
+    min-height: 52px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-sizing: border-box;
+    color: white;
+    margin: 0;
+    background-color: transparent;
+}
+
+.NavBar-primary-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 25px 0 25px;
+    height: 100%;
+}
+
+.NavBar-primary-item {
+    padding: 0 10px;
+    height: 100%;
+}
+
+.NavBar-primary-item a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.NavBar-primary-item a:hover {
+    color: black;
+}
+
+.NavBar-primary-item a.active {
+    color: black;
+    /* border-bottom: 1px solid black; */
+}
+
+.NavBar-primary-item:has(> a.active) {
+    border-bottom: 2px solid black;
+}
+
+.NavBar-primary-item-inside-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.NavBar-primary-item-inside-container p {
+    margin: 0;
+    padding: 0;
+    font-size: xx-small;
+    font-weight: 200;
+}
+
+.NavBar-primary-item-inside-headshot-container {
+    display: inline;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+    background-color: lightgray;
+}
+
+.NavBar-primary-item-inside-headshot {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.NavBar-auth-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    padding: 0 0 0 25px;
+    margin: 0 0 0 0;
+    height: 100%;
+    border-left: 1px solid lightgray;
+}
+
+.NavBar-auth-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.NavBar-auth-item a {
+    margin: 0 5px 0 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    width: 85px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    color: gray;
+    font-size: small;
+}
+
+.NavBar-auth-item a:hover {
+    color: black;
+    border: 1px solid black;
+}

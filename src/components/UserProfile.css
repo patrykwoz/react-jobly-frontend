@@ -1,0 +1,119 @@
+.Profile-info-container {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Profile-hero-image {
+    width: 100%;
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.Profile-headshot {
+    position: relative;
+    top: -50px;
+    left: 15px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+
+.Profile-info-text {
+    margin: 0;
+    padding: 0 15px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+}
+
+.Profile-info-text p {
+    margin: 5px 0 15px 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+.Profile-info-text h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.Profile-user-nav {
+    border-top: 1px solid lightgray;
+}
+
+.Profile-user-nav-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 35px;
+}
+
+.Profile-user-nav-item {
+    width: 65px;
+    list-style-type: none;
+}
+
+.Profile-user-nav-item a {
+    height: 100%;
+    display: block;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.Profile-user-nav-item a:hover {
+    color: black;
+}
+
+.Profile-user-nav-item a.active {
+    color: green;
+    border-bottom: 2px solid green;
+}
+
+.Profile-edit-button {
+    position: relative;
+    top: -90px;
+    left: calc(100% - 55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.Profile-edit-button a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile-edit-button a:hover {
+    color: black;
+    background-color: rgb(236, 236, 236);
+}
